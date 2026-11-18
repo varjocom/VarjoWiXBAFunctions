@@ -1,0 +1,6 @@
+; Copyright 2026 Varjo Technologies Oy. Licensed under the Microsoft Reciprocal License (MS-RL).
+; LICENSE.txt has the license text.
+
+EXPORTS
+    BAFunctionsCreate
+    BAFunctionsDestroy

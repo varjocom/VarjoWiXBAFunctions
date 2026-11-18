@@ -1,0 +1,31 @@
+# Varjo C++ Style.
+#
+# References:
+# - https://releases.llvm.org/19.1.0/tools/clang/docs/ClangFormatStyleOptions.html
+#
+BasedOnStyle: Google
+AccessModifierOffset: -4
+AlignAfterOpenBracket: DontAlign
+AlignTrailingComments:
+  Kind:            Always
+  OverEmptyLines:  0
+AllowShortBlocksOnASingleLine: Never
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLoopsOnASingleLine: true
+BreakBeforeBraces: Linux
+BreakConstructorInitializers: BeforeComma
+ColumnLimit: 160
+ConstructorInitializerIndentWidth: 4
+PackConstructorInitializers: BinPack
+Cpp11BracedListStyle: true
+AllowShortCaseLabelsOnASingleLine: true
+IndentWidth: 4
+DerivePointerAlignment: false
+PointerAlignment: Left
+TabWidth: 4
+UseTab: Never
+FixNamespaceComments: true
+NamespaceIndentation: None
+MaxEmptyLinesToKeep: 2
+CompactNamespaces: false
+SortIncludes: Never
